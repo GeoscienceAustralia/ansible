@@ -4,4 +4,4 @@ pipelines:
     dev-deploy-shared:
       - step:
           script:
-            - echo dothething
+            - bash .pipelines/deploy.sh
