@@ -1,0 +1,7 @@
+image: geoscienceaustralia/autobots-ansible
+pipelines:
+  custom: # Pipelines that are triggered manually
+    dev-deploy-shared:
+      - step:
+          script:
+            - echo dothething
